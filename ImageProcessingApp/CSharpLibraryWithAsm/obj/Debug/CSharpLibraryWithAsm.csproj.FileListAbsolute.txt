@@ -1,6 +1,0 @@
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\bin\Debug\CSharpLibraryWithAsm.dll
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\bin\Debug\CSharpLibraryWithAsm.pdb
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Debug\CSharpLibraryWithAsm.csproj.CoreCompileInputs.cache
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Debug\CSharpLibraryWithAsm.dll
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Debug\CSharpLibraryWithAsm.pdb
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Debug\CSharpLibraryWithAsm.csproj.AssemblyReference.cache

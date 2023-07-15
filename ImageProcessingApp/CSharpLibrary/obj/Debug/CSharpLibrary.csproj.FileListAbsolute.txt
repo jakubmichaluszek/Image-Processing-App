@@ -1,5 +1,0 @@
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibrary\bin\Debug\CSharpLibrary.dll
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibrary\bin\Debug\CSharpLibrary.pdb
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibrary\obj\Debug\CSharpLibrary.csproj.CoreCompileInputs.cache
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibrary\obj\Debug\CSharpLibrary.dll
-C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibrary\obj\Debug\CSharpLibrary.pdb

@@ -1,5 +1,0 @@
-C:\Users\kubam\source\repos\JakubMichaluszekJA\MedianFilterCSharp\obj\Debug\net5.0\MedianFilterCSharp.csproj.AssemblyReference.cache
-C:\Users\kubam\source\repos\JakubMichaluszekJA\MedianFilterCSharp\obj\Debug\net5.0\MedianFilterCSharp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kubam\source\repos\JakubMichaluszekJA\MedianFilterCSharp\obj\Debug\net5.0\MedianFilterCSharp.AssemblyInfoInputs.cache
-C:\Users\kubam\source\repos\JakubMichaluszekJA\MedianFilterCSharp\obj\Debug\net5.0\MedianFilterCSharp.AssemblyInfo.cs
-C:\Users\kubam\source\repos\JakubMichaluszekJA\MedianFilterCSharp\obj\Debug\net5.0\MedianFilterCSharp.csproj.CoreCompileInputs.cache
