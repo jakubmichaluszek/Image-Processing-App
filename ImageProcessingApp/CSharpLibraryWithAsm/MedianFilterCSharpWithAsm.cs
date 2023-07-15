@@ -9,7 +9,7 @@ namespace CSharpLibraryWithAsm
 {
     public class MedianFilterCSharpWithAsm
     {
-        [DllImport("C:\\Users\\kubam\\Desktop\\JA\\x64\\Debug\\dllASM.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\dllASM.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern int GetMedian(IntPtr values, int length);
 
 
