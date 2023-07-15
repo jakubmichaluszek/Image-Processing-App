@@ -1,0 +1,6 @@
+C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\bin\Release\CSharpLibraryWithAsm.dll
+C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\bin\Release\CSharpLibraryWithAsm.pdb
+C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Release\CSharpLibraryWithAsm.csproj.AssemblyReference.cache
+C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Release\CSharpLibraryWithAsm.csproj.CoreCompileInputs.cache
+C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Release\CSharpLibraryWithAsm.dll
+C:\Users\kubam\source\repos\JakubMichaluszekJA\CSharpLibraryWithAsm\obj\Release\CSharpLibraryWithAsm.pdb
