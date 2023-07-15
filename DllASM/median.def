@@ -1,0 +1,2 @@
+LIBRARY dllASM
+EXPORTS GetMedian
