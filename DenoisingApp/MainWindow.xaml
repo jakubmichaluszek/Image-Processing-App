@@ -1,0 +1,61 @@
+﻿<Window x:Class="MedianFilterApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedianFilterApp"
+        mc:Ignorable="d"
+        Title="Jakub Michaluszek - Median Filter" Height="1000" Width="1000">
+    <Grid Margin="26,27,10,0">
+        <Label FontWeight="Bold" Background="White" Margin="124,82,626,670" >Wybrane zdjecie:</Label>
+        <Label FontWeight="Bold" Background="White" Margin="562,82,188,670" >Zdjecie po uzyciu filtra:</Label>
+        <Image  Margin="474,127,26,357" Height="300" Width="400" x:Name="filtered_image"></Image>
+        <Image  Margin="19,127,481,357" Height="300" Width="400" x:Name="initial_image"></Image>
+        <Button Content="Zaladuj zdjecie" HorizontalAlignment="Left" Margin="656,539,0,0" VerticalAlignment="Top" Width="192" RenderTransformOrigin="0.5,0.5" Height="45" Click="load_photo">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Rozpocznij filtrowanie" HorizontalAlignment="Left" Margin="653,661,0,0" VerticalAlignment="Top" Width="192" RenderTransformOrigin="0.5,0.5" Height="46" Click="start_filtering">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Zapisz zdjecie po filtracji" HorizontalAlignment="Left" Margin="655,602,0,0" VerticalAlignment="Top" Width="189" RenderTransformOrigin="0.5,0.5" Height="45" Click="save_photo">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+        <Label FontWeight="Bold" Background="White" Content="Wybór biblioteki:" Height="30" Margin="329,612,411,146"/>
+        <RadioButton Click="RadioButton_Click" x:Name="CSharpButton" Background="White"  Content="C#"  Height="30" Margin="329,641,452,117"/>
+        <RadioButton IsChecked="True" Click="RadioButton_Click_1" x:Name="AssemblerButton"  Content="Assembly"  Height="30" Margin="329,662,452,96"/>
+
+
+        <Label FontWeight="Bold" Background="White" Margin="22,624,708,120">Wybór wątków od 1 do 16:</Label>
+        <TextBox Text="{Binding ElementName=threads, Path=Value, UpdateSourceTrigger=PropertyChanged}" Margin="201,624,654,123"/>
+        <Slider Maximum="16" Minimum="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Name="threads" Background="White" Margin="32,676,654,81"/>
+
+
+        <Label Content="Czas: " Height="30" Margin="676,724,180,34"/>
+        <Label x:Name="czas" Background="White" Content="0" Height="30" Margin="755,724,110,34"/>
+        <Label Content="ms" Height="30" Margin="799,724,51,34"/>
+
+
+    </Grid>
+</Window>
