@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vYrGTlTnXzz49uMmp86heQCOciKqEa4Ly+fb2PPWCZsK8u4fUA7smj0Winckzyes/X8uZfe/AxgiOLZwFPjoHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kubam\\source\\repos\\MedianFilterApp\\MedianFilterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kubam\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\kubam\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
