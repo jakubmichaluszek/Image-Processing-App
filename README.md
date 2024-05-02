@@ -1,4 +1,4 @@
-# Image Denoising Application
+# Image Denoising Application dd
 This project is an image denoising application written in C#. It allows users to upload images with noise and removes the noise using different algorithms implemented in C# and Assembly language. The application also measures the processing time required for image denoising. After removing the noise from the image, users have the option to download the denoised image.
 
 # Features
