@@ -56,12 +56,12 @@ namespace MedianFilterApp
 
         void assemblyDllChoice(byte[] initialImgArray, int width, int height, byte[] finalImgArray)
         {
-            //Zostawic sciezke pośrednia (nie bezposrednia)
+            // relative path
             var dllFile = new FileInfo(@"..\\CSharpLibraryWithAsm.dll");
             var DLL = Assembly.LoadFile(dllFile.FullName);
             var class1Type = DLL.GetType("CSharpLibraryWithAsm.MedianFilterCSharpWithAsm");
             dynamic c = Activator.CreateInstance(class1Type);
-            c.filtruj(initialImgArray, width, height, finalImgArray);
+            c.processImage(initialImgArray, width, height, finalImgArray);
         }
 
         void csharpDllChoice(byte[] initialImgArray, int width, int height, byte[] finalImgArray)
@@ -70,7 +70,7 @@ namespace MedianFilterApp
             var DLL = Assembly.LoadFile(dllFile.FullName);
             var class1Type = DLL.GetType("CSharpLibrary.MedianFilterCSharp");
             dynamic c = Activator.CreateInstance(class1Type);
-            c.filtruj(initialImgArray, width, height, finalImgArray);
+            c.processImage(initialImgArray, width, height, finalImgArray);
         }
 
         //Function that loads photo from file explorer, saving photo data to initialImgBitMap object.
