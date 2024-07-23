@@ -13,7 +13,7 @@ namespace CSharpLibraryWithAsm
         public static extern int GetMedian(IntPtr values, int length);
 
 
-        public void filtruj(byte[] initialImage, int width, int height, byte[] finalImage)
+        public void processImage(byte[] initialImage, int width, int height, byte[] finalImage)
         {
             for (int y = 0; y < height; y++)
             {
