@@ -9,7 +9,7 @@ namespace CSharpLibrary
     public class MedianFilterCSharp
     {
         //filtrowanie tablicy i zapisanie wyniku w drugiej tablicy
-        public void filtruj(byte[] initialImage, int width, int height, byte[] finalImage)
+        public void processImage(byte[] initialImage, int width, int height, byte[] finalImage)
         {
             for (int y = 0; y < height; y++)
             {
